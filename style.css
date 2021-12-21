@@ -50,6 +50,10 @@ color:#fff;
     font-size:40px;
     color:black;
 }
+.header{
+    font-size:100px;
+    color:#fff;
+}
 .header-para{
     font-size:20px;
 }
@@ -86,21 +90,20 @@ color:#fff;
 }
 .menu-img-1{
 background:#fff;
-height:900px;
+height:600px;
 }
 .menu-img-2{
 background:#fff;
-height:900px;
+height:600px;
 
 }
 .menu-text{
 background:#fff;;
-height:900px;
+height:600px;
 }
 .menu-section{
-    height:900px;
-    width:100%;
-    
+    height:600px;
+    width:100%;  
 }
 .hnm{
     width:100%;
@@ -113,7 +116,7 @@ height:900px;
 }
 .today{
     font-size:50px;
-    padding:100px 0px 0px 50px;
+    padding:50px 0px 0px 50px;
 }
 .date{
     color:rgba(187, 181, 164, 0.726);
@@ -133,10 +136,116 @@ height:900px;
     height:50px;
     margin-left:100px;
     color:black;
+    background:rgba(180, 127, 92, 0.726);
 }
-
-
-
+.online-shop{
+    width:100%;
+    height:600px;
+    background:black;
+    margin-top:50px;
+    background-image:url(./img/pexelsphoto324028.jpg);background-size:cover;
+}
+.visit{
+    color:#fff;
+    padding:100px 0px 0px 100px;
+    font-size:55px;
+}
+.visit-para{
+    font-size:20px;
+    color:#fff;
+    padding:20px 0px 0px 100px;
+}
+.shop-btn{
+    width:100px;
+    height:50px;
+    background:rgba(250, 197, 161, 0.726);
+    margin-left:100px;
+    margin-top:50px;
+    border:none;
+    font-size:20px;
+}
+.danishes{
+    height:700px;
+    background:rgba(228, 213, 171, 0.726);
+    margin-top:20px;
+}
+.aroma{
+    height:700px;
+    background:rgba(228, 213, 171, 0.726);
+    margin-top:20px;
+  
+}
+.img-danishes{
+    width:400px;
+    height:400px;
+    margin-left:150px;
+    margin-top:50px;
+}
+.para-danishes{
+    font-size:18px;
+    margin-left:100px;
+    margin-top:30px;
+}
+.aroma-para{
+    font-size:18px;
+    padding:100px 0px 0px 20px;
+}
+.aroma-dot{
+    font-size:18px;
+    padding:10px 0px 0px 20px;
+}
+.aroma-img{
+    width:550px;
+    height:300px;
+}
+.contact-first{
+height:600px;
+background:maroon;
+background-image:url(./img/chocolatedessertbrowniescake.jpg); background-size:cover;
+}
+.contact-second{
+background:#fff;
+height:600px;
+}
+.contact-third{
+height:600px;
+background:maroon;
+background-image:url(./img/pexelsphoto213621.png);
+}
+.contact-header{
+    font-size:50px;
+    margin-left:60px;
+    margin-top:100px;
+}
+.blur-para{
+    margin-left:100px;
+    color:rgba(138, 135, 126, 0.726);
+    font-size:20px;
+}
+.timing{
+    margin-top:30px;
+    margin-left:100px;
+}
+.timing-dot{
+    font-size:25px;
+    margin-left:100px;
+}
+.time-btn{
+    width:150px;
+    height:50px;
+    background:rgba(180, 127, 92, 0.726);
+}
+.footer{
+    width:100%;
+    height:100px;
+    color:#fff;
+    background:black;
+    text-align:center;
+    padding-top:40px;
+}
+.span-color{
+    color:rgba(240, 181, 143, 0.726);
+}
 
 
 @media screen and (max-width:1000px){
@@ -147,7 +256,7 @@ height:900px;
        display:none;
     }
     .second-info{
-        height:2000px;
+        height:2300px;
         background:rgba(228, 213, 171, 0.726);
         padding:100px 100px 100px 100px;
     }
@@ -155,5 +264,61 @@ height:900px;
         padding:20px 0px 0px 0px;
         width:290px;
         height:250px;
+    }
+    .menu-section{
+        height:2400px;
+        width:100%;  
+    }
+    .menu-img-1{
+        background:#fff;
+        height:600px;
+        }
+        .menu-img-2{
+        background:#fff;
+        height:600px;
+        
+        }
+        .menu-text{
+        background:#fff;;
+        height:600px;
+        }
+        .online-shop{
+            height:900px;      
+        }
+        .visit{
+            color:#fff;
+            padding:100px 0px 0px 50px;
+            font-size:55px;
+        }
+        .visit-para{
+            font-size:15px;
+            color:#fff;
+            padding:20px 0px 0px 50px;
+        }
+        .shop-btn{
+            margin-left:50px;
+        }
+        .danishes{
+            margin-top:50px;
+        }
+        .img-danishes{
+            margin-left:20px;  
+        }
+        .para-danishes{
+            font-size:18px;
+            margin-left:50px;
+            margin-top:30px;
+        }
+        .aroma-img{
+            margin-top:30px;
+            width:450px;
+        }
+        
+}
+@media screen and (min-width:800px){
+    .second-info{
+        height:1500px;
+        background:rgba(228, 213, 171, 0.726);
+        padding:100px 100px 100px 100px;
     }
 }
